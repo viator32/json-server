@@ -1,26 +1,13 @@
 {
-  "name": "project_data",
-  "version": "1.0.0",
+  "name": "json-server-template",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/viator32/json-server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/viator32/json-server/issues"
-  },
-  "homepage": "https://github.com/viator32/json-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^0.17.1"
+    "json-server": "^0.16.3"
   }
 }
