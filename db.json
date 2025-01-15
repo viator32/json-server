@@ -1,0 +1,1579 @@
+{
+  "forms": [
+    {
+      "id": "1788",
+      "properties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "elements": [
+        {
+          "type": "page",
+          "id": "66921dc4-d587-4f97-86cb-e311d483dad1",
+          "elements": [
+            {
+              "id": "el_0a14adc0-d7db-4e52-9ee5-9d30aec56a1d",
+              "type": "product_calc",
+              "label": "ProductCalc Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            }
+          ],
+          "label": "Page 1"
+        },
+        {
+          "id": "el_1f2342f0-90ae-4c77-a7b2-f6306176ab21",
+          "type": "page",
+          "label": "Page Label",
+          "targetKey": "",
+          "properties": {
+            "required": false,
+            "placeholder": "",
+            "hint": "",
+            "defaultValue": "",
+            "readonly": false,
+            "options": []
+          },
+          "elements": []
+        },
+        {
+          "id": "el_5f182989-be86-4cb4-a0fc-468e59d24a6c",
+          "type": "page",
+          "label": "Page Label",
+          "targetKey": "",
+          "properties": {
+            "required": false,
+            "placeholder": "",
+            "hint": "",
+            "defaultValue": "",
+            "readonly": false,
+            "options": []
+          },
+          "elements": []
+        },
+        {
+          "id": "el_265dc7d3-ad1b-40bb-a6df-3b4c5a2ed6cc",
+          "type": "page",
+          "label": "Page Label",
+          "targetKey": "",
+          "properties": {
+            "required": false,
+            "placeholder": "",
+            "hint": "",
+            "defaultValue": "",
+            "readonly": false,
+            "options": []
+          },
+          "elements": []
+        }
+      ],
+      "status": "active",
+      "metadata": {
+        "createdAt": "2025-01-13T14:15:11.734Z",
+        "updatedAt": "2025-01-15T12:31:04.306Z",
+        "createdBy": {
+          "name": "User Name"
+        }
+      },
+      "responses": []
+    },
+    {
+      "id": "8a55",
+      "properties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": true,
+        "termsUrl": "https://vuejs.org/guide/essentials/forms.html",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": [
+          {
+            "id": "t2",
+            "name": "Customer"
+          },
+          {
+            "id": "t3",
+            "name": "Survey"
+          }
+        ]
+      },
+      "elements": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_1989c055-7c85-449d-9512-a794175abbed",
+              "type": "text_input",
+              "label": "Text Input Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            },
+            {
+              "id": "el_9837a1f4-4d76-4091-9926-41a81dad4594",
+              "type": "text_area",
+              "label": "Text Area Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            },
+            {
+              "id": "el_502887fe-0df7-4727-9515-9026762fae55",
+              "type": "file_upload",
+              "label": "File Upload Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        },
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-002",
+          "label": "Feedback Details",
+          "elements": [
+            {
+              "id": "el_feadf16b-c7c6-48b4-8cc6-6a5c3b97074e",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1",
+                    "value": "1"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "new"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_6795d3ec-30fe-44a4-8423-aee732877d8f",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1 Option",
+                    "value": "1"
+                  },
+                  {
+                    "label": "2 Option",
+                    "value": "2"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_f903cd40-703e-44eb-a1cc-9f0b3bba1280",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  }
+                ]
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "status": "active",
+      "metadata": {
+        "createdAt": "2025-01-14T14:54:56.475Z",
+        "updatedAt": "2025-01-14T15:01:48.773Z",
+        "createdBy": {
+          "name": "User Name"
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "id": "t1",
+      "name": "Feedback"
+    },
+    {
+      "id": "t2",
+      "name": "Customer"
+    },
+    {
+      "id": "t3",
+      "name": "Survey"
+    },
+    {
+      "id": "t4",
+      "name": "HR"
+    }
+  ],
+  "responses": [
+    {
+      "id": "dd07",
+      "formId": "1788",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_bfdd7924-02bc-4d59-aaba-8759b54a385b",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "Car",
+                    "value": "car"
+                  },
+                  {
+                    "label": "House",
+                    "value": "shouse"
+                  }
+                ],
+                "value": [
+                  "shouse",
+                  "car"
+                ]
+              }
+            },
+            {
+              "id": "el_f7a95633-14f4-4388-a5be-fcc69b37b41f",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "ko"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "oke"
+                  }
+                ],
+                "value": "ko"
+              }
+            },
+            {
+              "id": "el_83600116-290b-458a-8ec4-c58025195b9b",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "olko"
+                  }
+                ],
+                "value": "New Option"
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T09:18:51.622Z",
+      "submittedBy": "User1",
+      "status": "Complete"
+    },
+    {
+      "id": "dd31",
+      "formId": "1788",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_bfdd7924-02bc-4d59-aaba-8759b54a385b",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "Car",
+                    "value": "car"
+                  },
+                  {
+                    "label": "House",
+                    "value": "shouse"
+                  }
+                ],
+                "value": [
+                  "shouse",
+                  "car"
+                ]
+              }
+            },
+            {
+              "id": "el_f7a95633-14f4-4388-a5be-fcc69b37b41f",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "ko"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "oke"
+                  }
+                ],
+                "value": "ko"
+              }
+            },
+            {
+              "id": "el_83600116-290b-458a-8ec4-c58025195b9b",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "olko"
+                  }
+                ],
+                "value": "New Option"
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T09:31:58.558Z",
+      "submittedBy": "Diana Prince",
+      "status": "Complete"
+    },
+    {
+      "id": "8c81",
+      "formId": "1788",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_bfdd7924-02bc-4d59-aaba-8759b54a385b",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "Car",
+                    "value": "car"
+                  },
+                  {
+                    "label": "House",
+                    "value": "shouse"
+                  }
+                ],
+                "value": [
+                  "shouse"
+                ]
+              }
+            },
+            {
+              "id": "el_f7a95633-14f4-4388-a5be-fcc69b37b41f",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "ko"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "oke"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_83600116-290b-458a-8ec4-c58025195b9b",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "olko"
+                  }
+                ],
+                "value": "New Option"
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T09:32:07.572Z",
+      "submittedBy": "Charlie Brown",
+      "status": "Incomplete"
+    },
+    {
+      "id": "6e61",
+      "formId": "1788",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_b051b7a0-eb72-4640-97c6-40bc73809ee8",
+              "type": "datepicker",
+              "label": "Datepicker Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T11:45:26.991Z",
+      "submittedBy": "Bob Smith",
+      "status": "Incomplete"
+    },
+    {
+      "id": "5d40",
+      "formId": "1788",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_b051b7a0-eb72-4640-97c6-40bc73809ee8",
+              "type": "datepicker",
+              "label": "Datepicker Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [],
+                "value": "2025-02-13T23:00:00.000Z"
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T12:12:54.634Z",
+      "submittedBy": "Bob Smith",
+      "status": "Complete"
+    },
+    {
+      "id": "77cb",
+      "formId": null,
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost (Copy)",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_dc7430f8-b205-4c1f-a19a-b9c25e013a6a",
+              "type": "text_area",
+              "label": "Text Area Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [],
+                "value": "nijmoimoimio"
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T14:26:25.864Z",
+      "submittedBy": "Ethan Hunt",
+      "status": "Complete"
+    },
+    {
+      "id": "eca8",
+      "formId": "8a55",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": [
+          {
+            "id": "t2",
+            "name": "Customer"
+          },
+          {
+            "id": "t3",
+            "name": "Survey"
+          }
+        ]
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_1989c055-7c85-449d-9512-a794175abbed",
+              "type": "text_input",
+              "label": "Text Input Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [],
+                "value": "321 3"
+              }
+            },
+            {
+              "id": "el_9837a1f4-4d76-4091-9926-41a81dad4594",
+              "type": "text_area",
+              "label": "Text Area Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            },
+            {
+              "id": "el_502887fe-0df7-4727-9515-9026762fae55",
+              "type": "file_upload",
+              "label": "File Upload Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        },
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-002",
+          "label": "Feedback Details",
+          "elements": [
+            {
+              "id": "el_feadf16b-c7c6-48b4-8cc6-6a5c3b97074e",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1",
+                    "value": "1"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "new"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_6795d3ec-30fe-44a4-8423-aee732877d8f",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1 Option",
+                    "value": "1"
+                  },
+                  {
+                    "label": "2 Option",
+                    "value": "2"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_8bb98d3c-5ee0-4905-8334-50afee9b2560",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "yes",
+                    "value": "true"
+                  },
+                  {
+                    "label": "no",
+                    "value": "false"
+                  }
+                ],
+                "value": "true"
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T14:55:03.149Z",
+      "submittedBy": "Ethan Hunt",
+      "status": "Incomplete"
+    },
+    {
+      "id": "6f77",
+      "formId": "8a55",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": true,
+        "termsUrl": "https://vuejs.org/guide/essentials/forms.html",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": [
+          {
+            "id": "t2",
+            "name": "Customer"
+          },
+          {
+            "id": "t3",
+            "name": "Survey"
+          }
+        ]
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_1989c055-7c85-449d-9512-a794175abbed",
+              "type": "text_input",
+              "label": "Text Input Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [],
+                "value": "dadwd aw"
+              }
+            },
+            {
+              "id": "el_9837a1f4-4d76-4091-9926-41a81dad4594",
+              "type": "text_area",
+              "label": "Text Area Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [],
+                "value": "dsa dwadsada"
+              }
+            },
+            {
+              "id": "el_502887fe-0df7-4727-9515-9026762fae55",
+              "type": "file_upload",
+              "label": "File Upload Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        },
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-002",
+          "label": "Feedback Details",
+          "elements": [
+            {
+              "id": "el_feadf16b-c7c6-48b4-8cc6-6a5c3b97074e",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1",
+                    "value": "1"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "new"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_6795d3ec-30fe-44a4-8423-aee732877d8f",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1 Option",
+                    "value": "1"
+                  },
+                  {
+                    "label": "2 Option",
+                    "value": "2"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_f903cd40-703e-44eb-a1cc-9f0b3bba1280",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  }
+                ]
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-14T15:02:11.090Z",
+      "submittedBy": "Diana Prince",
+      "status": "Incomplete"
+    },
+    {
+      "id": "9130",
+      "formId": "1788",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "66921dc4-d587-4f97-86cb-e311d483dad1",
+          "elements": [
+            {
+              "id": "el_dcee4c18-ab4b-4a65-8414-7226567bfcd8",
+              "type": "text_input",
+              "label": "Text Input Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [],
+                "value": "dsadasdasdsad"
+              }
+            }
+          ]
+        }
+      ],
+      "submissionDate": "2025-01-15T12:04:05.538Z",
+      "submittedBy": "Alice Johnson",
+      "status": "Complete"
+    },
+    {
+      "id": "2207",
+      "formId": "1788",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": false,
+        "termsUrl": "",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": []
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "66921dc4-d587-4f97-86cb-e311d483dad1",
+          "elements": [
+            {
+              "id": "el_dcee4c18-ab4b-4a65-8414-7226567bfcd8",
+              "type": "text_input",
+              "label": "Text Input Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [],
+                "value": "dsadsadsa"
+              }
+            }
+          ]
+        }
+      ],
+      "submissionDate": "2025-01-15T12:04:41.401Z",
+      "submittedBy": "Charlie Brown",
+      "status": "Complete"
+    },
+    {
+      "id": "7832",
+      "formId": "8a55",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": true,
+        "termsUrl": "https://vuejs.org/guide/essentials/forms.html",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": [
+          {
+            "id": "t2",
+            "name": "Customer"
+          },
+          {
+            "id": "t3",
+            "name": "Survey"
+          }
+        ]
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_1989c055-7c85-449d-9512-a794175abbed",
+              "type": "text_input",
+              "label": "Text Input Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            },
+            {
+              "id": "el_9837a1f4-4d76-4091-9926-41a81dad4594",
+              "type": "text_area",
+              "label": "Text Area Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            },
+            {
+              "id": "el_502887fe-0df7-4727-9515-9026762fae55",
+              "type": "file_upload",
+              "label": "File Upload Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        },
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-002",
+          "label": "Feedback Details",
+          "elements": [
+            {
+              "id": "el_feadf16b-c7c6-48b4-8cc6-6a5c3b97074e",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1",
+                    "value": "1"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "new"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_6795d3ec-30fe-44a4-8423-aee732877d8f",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1 Option",
+                    "value": "1"
+                  },
+                  {
+                    "label": "2 Option",
+                    "value": "2"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_f903cd40-703e-44eb-a1cc-9f0b3bba1280",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  }
+                ]
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-15T12:05:21.112Z",
+      "submittedBy": "Bob Smith",
+      "status": "Incomplete"
+    },
+    {
+      "id": "a943",
+      "formId": "8a55",
+      "formProperties": {
+        "name": "Customer Feedback Survey test tost",
+        "description": "A survey to gather customer feedback on our services.",
+        "status": "active",
+        "requireTerms": true,
+        "termsUrl": "https://vuejs.org/guide/essentials/forms.html",
+        "requirePrivacy": false,
+        "privacyUrl": "",
+        "requireGDPR": false,
+        "gdprUrl": "",
+        "tags": [
+          {
+            "id": "t2",
+            "name": "Customer"
+          },
+          {
+            "id": "t3",
+            "name": "Survey"
+          }
+        ]
+      },
+      "formStructure": [
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-001",
+          "label": "Personal Information",
+          "elements": [
+            {
+              "id": "el_1989c055-7c85-449d-9512-a794175abbed",
+              "type": "text_input",
+              "label": "Text Input Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            },
+            {
+              "id": "el_9837a1f4-4d76-4091-9926-41a81dad4594",
+              "type": "text_area",
+              "label": "Text Area Label",
+              "properties": {
+                "required": true,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            },
+            {
+              "id": "el_502887fe-0df7-4727-9515-9026762fae55",
+              "type": "file_upload",
+              "label": "File Upload Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": []
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        },
+        {
+          "type": "page",
+          "id": "p1a2b3c4d-002",
+          "label": "Feedback Details",
+          "elements": [
+            {
+              "id": "el_feadf16b-c7c6-48b4-8cc6-6a5c3b97074e",
+              "type": "dropdown",
+              "label": "Drop-Down Menu Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1",
+                    "value": "1"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "new"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_6795d3ec-30fe-44a4-8423-aee732877d8f",
+              "type": "checkboxes",
+              "label": "Checkboxes Label",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "1 Option",
+                    "value": "1"
+                  },
+                  {
+                    "label": "2 Option",
+                    "value": "2"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "el_f903cd40-703e-44eb-a1cc-9f0b3bba1280",
+              "type": "radio_buttons",
+              "label": "Radio Buttons Label",
+              "targetKey": "",
+              "properties": {
+                "required": false,
+                "placeholder": "",
+                "hint": "",
+                "defaultValue": "",
+                "readonly": false,
+                "options": [
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  },
+                  {
+                    "label": "New Option",
+                    "value": "no"
+                  }
+                ]
+              }
+            }
+          ],
+          "config": {
+            "collapsible": true
+          }
+        }
+      ],
+      "submissionDate": "2025-01-15T12:05:33.650Z",
+      "submittedBy": "Ethan Hunt",
+      "status": "Incomplete"
+    }
+  ],
+  "templates": [
+    {
+      "name": "New template ",
+      "description": "for the people",
+      "isPublic": true,
+      "structure": {
+        "formProperties": {
+          "name": "Customer Feedback Survey test tost",
+          "description": "A survey to gather customer feedback on our services.",
+          "status": "active",
+          "requireTerms": false,
+          "termsUrl": "",
+          "requirePrivacy": false,
+          "privacyUrl": "",
+          "requireGDPR": false,
+          "gdprUrl": "",
+          "tags": [
+            {
+              "id": "t2",
+              "name": "Customer"
+            },
+            {
+              "id": "t3",
+              "name": "Survey"
+            }
+          ]
+        },
+        "formStructure": [
+          {
+            "type": "page",
+            "id": "p1a2b3c4d-001",
+            "label": "Personal Information",
+            "elements": [
+              {
+                "id": "el_1989c055-7c85-449d-9512-a794175abbed",
+                "type": "text_input",
+                "label": "Text Input Label",
+                "properties": {
+                  "required": false,
+                  "placeholder": "",
+                  "hint": "",
+                  "defaultValue": "",
+                  "readonly": false,
+                  "options": []
+                }
+              },
+              {
+                "id": "el_9837a1f4-4d76-4091-9926-41a81dad4594",
+                "type": "text_area",
+                "label": "Text Area Label",
+                "properties": {
+                  "required": false,
+                  "placeholder": "",
+                  "hint": "",
+                  "defaultValue": "",
+                  "readonly": false,
+                  "options": []
+                }
+              },
+              {
+                "id": "el_502887fe-0df7-4727-9515-9026762fae55",
+                "type": "file_upload",
+                "label": "File Upload Label",
+                "properties": {
+                  "required": false,
+                  "placeholder": "",
+                  "hint": "",
+                  "defaultValue": "",
+                  "readonly": false,
+                  "options": []
+                }
+              }
+            ],
+            "config": {
+              "collapsible": true
+            }
+          },
+          {
+            "type": "page",
+            "id": "p1a2b3c4d-002",
+            "label": "Feedback Details",
+            "elements": [
+              {
+                "id": "el_feadf16b-c7c6-48b4-8cc6-6a5c3b97074e",
+                "type": "dropdown",
+                "label": "Drop-Down Menu Label",
+                "properties": {
+                  "required": false,
+                  "placeholder": "",
+                  "hint": "",
+                  "defaultValue": "",
+                  "readonly": false,
+                  "options": [
+                    {
+                      "label": "1",
+                      "value": "1"
+                    },
+                    {
+                      "label": "New Option",
+                      "value": "new"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "el_6795d3ec-30fe-44a4-8423-aee732877d8f",
+                "type": "checkboxes",
+                "label": "Checkboxes Label",
+                "properties": {
+                  "required": false,
+                  "placeholder": "",
+                  "hint": "",
+                  "defaultValue": "",
+                  "readonly": false,
+                  "options": [
+                    {
+                      "label": "1 Option",
+                      "value": "1"
+                    },
+                    {
+                      "label": "2 Option",
+                      "value": "2"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "el_8bb98d3c-5ee0-4905-8334-50afee9b2560",
+                "type": "radio_buttons",
+                "label": "Radio Buttons Label",
+                "properties": {
+                  "required": false,
+                  "placeholder": "",
+                  "hint": "",
+                  "defaultValue": "",
+                  "readonly": false,
+                  "options": [
+                    {
+                      "label": "yes",
+                      "value": "true"
+                    },
+                    {
+                      "label": "no",
+                      "value": "false"
+                    }
+                  ],
+                  "value": "true"
+                }
+              }
+            ],
+            "config": {
+              "collapsible": true
+            }
+          }
+        ]
+      },
+      "isFavorite": false,
+      "id": "6687"
+    }
+  ]
+}
